@@ -1,66 +1,54 @@
-# Update 2024-10-21
-## CVE-2024-30088
- Windows Kernel Elevation of Privilege Vulnerability
+# Update 2024-10-23
+## CVE-2024-35250
+ Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
 
-- [https://github.com/l0n3m4n/CVE-2024-30088](https://github.com/l0n3m4n/CVE-2024-30088) :  ![starts](https://img.shields.io/github/stars/l0n3m4n/CVE-2024-30088.svg) ![forks](https://img.shields.io/github/forks/l0n3m4n/CVE-2024-30088.svg)
-
-
-## CVE-2024-4865
- The Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;_id&#8217; parameter in all versions up to, and including, 3.10.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
-
-- [https://github.com/paragbagul111/CVE-2024-48652](https://github.com/paragbagul111/CVE-2024-48652) :  ![starts](https://img.shields.io/github/stars/paragbagul111/CVE-2024-48652.svg) ![forks](https://img.shields.io/github/forks/paragbagul111/CVE-2024-48652.svg)
+- [https://github.com/0xjiefeng/CVE-2024-35250-BOF](https://github.com/0xjiefeng/CVE-2024-35250-BOF) :  ![starts](https://img.shields.io/github/stars/0xjiefeng/CVE-2024-35250-BOF.svg) ![forks](https://img.shields.io/github/forks/0xjiefeng/CVE-2024-35250-BOF.svg)
 
 
-## CVE-2024-4841
- A Path Traversal vulnerability exists in the parisneo/lollms-webui, specifically within the 'add_reference_to_local_mode' function due to the lack of input sanitization. This vulnerability affects versions v9.6 to the latest. By exploiting this vulnerability, an attacker can predict the folders, subfolders, and files present on the victim's computer. The vulnerability is present in the way the application handles the 'path' parameter in HTTP requests to the '/add_reference_to_local_model' endpoint.
-
-- [https://github.com/khaliquesX/CVE-2024-48415](https://github.com/khaliquesX/CVE-2024-48415) :  ![starts](https://img.shields.io/github/stars/khaliquesX/CVE-2024-48415.svg) ![forks](https://img.shields.io/github/forks/khaliquesX/CVE-2024-48415.svg)
-
-
-## CVE-2024-4785
+## CVE-2024-35133
  ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/MarioTesoro/CVE-2024-47854](https://github.com/MarioTesoro/CVE-2024-47854) :  ![starts](https://img.shields.io/github/stars/MarioTesoro/CVE-2024-47854.svg) ![forks](https://img.shields.io/github/forks/MarioTesoro/CVE-2024-47854.svg)
+- [https://github.com/Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133](https://github.com/Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133) :  ![starts](https://img.shields.io/github/stars/Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133.svg) ![forks](https://img.shields.io/github/forks/Ozozuz/Ozozuz-IBM-Security-Verify-CVE-2024-35133.svg)
 
 
-## CVE-2024-4717
- A vulnerability was found in Campcodes Complete Web-Based School Management System 1.0 and classified as problematic. This issue affects some unknown processing of the file /model/update_classroom.php. The manipulation of the argument name leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-263795.
+## CVE-2024-23113
+ A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 
-- [https://github.com/0x7556/CVE-2024-47176](https://github.com/0x7556/CVE-2024-47176) :  ![starts](https://img.shields.io/github/stars/0x7556/CVE-2024-47176.svg) ![forks](https://img.shields.io/github/forks/0x7556/CVE-2024-47176.svg)
-
-
-## CVE-2021-39433
- A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive v1.83 and below when sending a specific payload as the file parameter to download/index.php. This allows the attacker to read arbitrary files from the server with the permissions of the configured web-user.
-
-- [https://github.com/ibnurusdianto/CVE-2021-39433](https://github.com/ibnurusdianto/CVE-2021-39433) :  ![starts](https://img.shields.io/github/stars/ibnurusdianto/CVE-2021-39433.svg) ![forks](https://img.shields.io/github/forks/ibnurusdianto/CVE-2021-39433.svg)
+- [https://github.com/p33d/CVE-2024-23113](https://github.com/p33d/CVE-2024-23113) :  ![starts](https://img.shields.io/github/stars/p33d/CVE-2024-23113.svg) ![forks](https://img.shields.io/github/forks/p33d/CVE-2024-23113.svg)
 
 
-## CVE-2021-32708
- Flysystem is an open source file storage library for PHP. The whitespace normalisation using in 1.x and 2.x removes any unicode whitespace. Under certain specific conditions this could potentially allow a malicious user to execute code remotely. The conditions are: A user is allowed to supply the path or filename of an uploaded file, the supplied path or filename is not checked against unicode chars, the supplied pathname checked against an extension deny-list, not an allow-list, the supplied path or filename contains a unicode whitespace char in the extension, the uploaded file is stored in a directory that allows PHP code to be executed. Given these conditions are met a user can upload and execute arbitrary code on the system under attack. The unicode whitespace removal has been replaced with a rejection (exception). For 1.x users, upgrade to 1.1.4. For 2.x users, upgrade to 2.1.1.
+## CVE-2024-4891
+ The Essential Blocks &#8211; Page Builder Gutenberg Blocks, Patterns &amp; Templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the &#8216;tagName&#8217; parameter in versions up to, and including, 4.5.12 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
 
-- [https://github.com/fazilbaig1/CVE-2021-32708](https://github.com/fazilbaig1/CVE-2021-32708) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/CVE-2021-32708.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/CVE-2021-32708.svg)
-
-
-## CVE-2021-23383
- The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when selecting certain compiling options to compile templates coming from an untrusted source.
-
-- [https://github.com/fazilbaig1/CVE-2021-23383](https://github.com/fazilbaig1/CVE-2021-23383) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/CVE-2021-23383.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/CVE-2021-23383.svg)
+- [https://github.com/EQSTLab/CVE-2024-48914](https://github.com/EQSTLab/CVE-2024-48914) :  ![starts](https://img.shields.io/github/stars/EQSTLab/CVE-2024-48914.svg) ![forks](https://img.shields.io/github/forks/EQSTLab/CVE-2024-48914.svg)
 
 
-## CVE-2021-23369
- The package handlebars before 4.7.7 are vulnerable to Remote Code Execution (RCE) when selecting certain compiling options to compile templates coming from an untrusted source.
+## CVE-2024-4543
+ ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.
 
-- [https://github.com/fazilbaig1/CVE-2021-23369](https://github.com/fazilbaig1/CVE-2021-23369) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/CVE-2021-23369.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/CVE-2021-23369.svg)
-
-
-## CVE-2020-28458
- All versions of package datatables.net are vulnerable to Prototype Pollution due to an incomplete fix for https://snyk.io/vuln/SNYK-JS-DATATABLESNET-598806.
-
-- [https://github.com/fazilbaig1/CVE-2020-28458](https://github.com/fazilbaig1/CVE-2020-28458) :  ![starts](https://img.shields.io/github/stars/fazilbaig1/CVE-2020-28458.svg) ![forks](https://img.shields.io/github/forks/fazilbaig1/CVE-2020-28458.svg)
+- [https://github.com/pankass/CVE-2024-45436](https://github.com/pankass/CVE-2024-45436) :  ![starts](https://img.shields.io/github/stars/pankass/CVE-2024-45436.svg) ![forks](https://img.shields.io/github/forks/pankass/CVE-2024-45436.svg)
 
 
-## CVE-2019-19609
- The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.
+## CVE-2024-1086
+ A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation. The nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT. We recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.
 
-- [https://github.com/ebadfd/CVE-2019-19609](https://github.com/ebadfd/CVE-2019-19609) :  ![starts](https://img.shields.io/github/stars/ebadfd/CVE-2019-19609.svg) ![forks](https://img.shields.io/github/forks/ebadfd/CVE-2019-19609.svg)
+- [https://github.com/matrixvk/CVE-2024-1086-aarch64](https://github.com/matrixvk/CVE-2024-1086-aarch64) :  ![starts](https://img.shields.io/github/stars/matrixvk/CVE-2024-1086-aarch64.svg) ![forks](https://img.shields.io/github/forks/matrixvk/CVE-2024-1086-aarch64.svg)
+
+
+## CVE-2023-42115
+ Exim AUTH Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Exim. Authentication is not required to exploit this vulnerability. The specific flaw exists within the smtp service, which listens on TCP port 25 by default. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of a buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-17434.
+
+- [https://github.com/kirinse/cve-2023-42115](https://github.com/kirinse/cve-2023-42115) :  ![starts](https://img.shields.io/github/stars/kirinse/cve-2023-42115.svg) ![forks](https://img.shields.io/github/forks/kirinse/cve-2023-42115.svg)
+
+
+## CVE-2022-48656
+ In the Linux kernel, the following vulnerability has been resolved: dmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get() We should call of_node_put() for the reference returned by of_parse_phandle() in fail path or when it is not used anymore. Here we only need to move the of_node_put() before the check.
+
+- [https://github.com/Einstein2150/CVE-2022-48656-POC](https://github.com/Einstein2150/CVE-2022-48656-POC) :  ![starts](https://img.shields.io/github/stars/Einstein2150/CVE-2022-48656-POC.svg) ![forks](https://img.shields.io/github/forks/Einstein2150/CVE-2022-48656-POC.svg)
+
+
+## CVE-2021-41773
+ A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
+
+- [https://github.com/shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773) :  ![starts](https://img.shields.io/github/stars/shiomiyan/CVE-2021-41773.svg) ![forks](https://img.shields.io/github/forks/shiomiyan/CVE-2021-41773.svg)
 
